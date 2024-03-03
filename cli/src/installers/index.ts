@@ -9,6 +9,7 @@ import { drizzleInstaller } from "./drizzle.js";
 
 // Turning this into a const allows the list to be iterated over for programatically creating prompt options
 // Should increase extensability in the future
+
 export const availablePackages = [
   "nextAuth",
   "prisma",
