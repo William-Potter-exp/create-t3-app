@@ -18,6 +18,7 @@ export const availablePackages = [
   "envVariables",
   "dbContainer",
 ] as const;
+
 export type AvailablePackages = (typeof availablePackages)[number];
 
 export const databaseProviders = [
